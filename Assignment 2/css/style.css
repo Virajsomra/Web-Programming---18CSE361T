@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    font-family: "Lato",sans-serif;
+    color: #666; 
+}
+
+.bcg1, .bcg2, .bcg3{
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bcg1{
+    background-image: url('../images/bcg1.jpg');
+    min-height: 100%;
+}
+
+.bcg2{
+    background-image: url('../images/bcg2.jpg');
+    min-height: 400px;
+}
+
+.bcg3{
+    background-image: url('../images/bcg3.jpg');
+    min-height: 400px;
+}
+
+.sec {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.sec-dark{
+    background-color: #282e34;
+    color: #4deeea;
+}
+
+.heading {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+
+.heading .border {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+
+.heading .border.trans {
+    background-color:transparent;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+/* @media(max-width:568px){
+    .bcg1, .bcg2, .bcg3{
+        background-attachment: scroll;
+    }
+} */
